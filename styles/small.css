@@ -1,0 +1,39 @@
+.headergrid{
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    grid-gap: 1em;
+}
+header{
+    background-color: skyblue;
+    padding: .5em;  
+}
+
+.weddingphoto{
+    width: 75px;
+    height: auto;
+    box-shadow: 0 0 15px black;
+}
+.name{
+    align-items: center;
+    font-size: 1em;
+}
+h2{
+    font-size: 1em;
+}
+.content{
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: 'Almendra SC', serif;
+    font-family: 'Architects Daughter', sans-serif;
+    text-align: center;
+}
+nav ul{
+    list-style: none;
+    display: grid;
+    margin: 0;
+    font-size: .75em;
+}
+footer{
+    background-color: gold;
+    border-radius: 15px;
+}
