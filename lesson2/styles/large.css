@@ -1,4 +1,9 @@
-@media only screen and (min-width: 60em){
+@media only screen and (min-width: 75em){
+
+    .content{
+        max-width: 900px;
+        margin: 0 auto;
+    }
 
     main{
         grid-template-columns: 1fr 1fr 1fr;
@@ -6,5 +11,20 @@
 
     section:nth-child(3){
         grid-column: span 1;
+    }
+
+    .thirdsphoto{
+        width: 300px;
+        height: auto;
+    }
+    
+    .whitespacephoto{
+        width: 300px;
+        height: auto;
+    }
+    
+    .fittslawphoto{
+        width: 300px;
+        height: auto;
     }
 }
