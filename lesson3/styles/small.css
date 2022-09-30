@@ -30,3 +30,8 @@ nav ul li {
 nav a:hover {
     background-color: #008dd5;
 }
+footer{
+    background-color: gold;
+    border-radius: 15px;
+    text-align: center;
+}

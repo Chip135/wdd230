@@ -35,3 +35,8 @@ header{
     width: 200px;
     height: auto;
 }
+footer{
+    background-color: gold;
+    border-radius: 15px;
+    text-align: center;
+}
