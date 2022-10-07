@@ -1,0 +1,23 @@
+@media only screen and (min-width: 50rem){
+    nav ul#primarynav{
+        display: flex;
+    }
+    nav ul li a{
+        padding: .5rem 1rem;
+        border: none;
+    }
+    nav button{
+        display: none;
+    }
+    footer div section{
+        display: flex;
+        flex-direction: row;
+    }
+    footer section{
+        display: flex;
+        justify-content: center;
+    }
+    #lastmodified{
+        margin-left: 1rem;
+    }
+}

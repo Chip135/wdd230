@@ -1,0 +1,33 @@
+@media only screen and (min-width: 30rem){
+    footer div{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    footer div h3{
+        font-size: .7rem;
+        flex-wrap: wrap;
+        margin: .5rem
+    }
+    footer div span{
+        display: flex;
+        flex-direction: column;
+        margin: .5rem
+    }
+    footer div span p{
+        margin: 0;
+    }
+    footer section span{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    footer section h3{
+        font-size: 1rem;
+    }
+    #lastmodified{
+        justify-content: center;
+    }
+
+}
