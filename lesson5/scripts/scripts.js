@@ -3,6 +3,8 @@ const button = document.querySelector("button");
 const list = document.querySelector("ul");
 
 button.addEventListener("click", function () {
+    if (input.value.length === 0){}
+    else{
 	const myBook = input.value;
 	input.value = "";
 	const listItem = document.createElement("li");
@@ -18,5 +20,6 @@ button.addEventListener("click", function () {
 	listBtn.addEventListener("click", () => {
 		list.removeChild(listItem);
 	});
+}
 	input.focus();
 });
