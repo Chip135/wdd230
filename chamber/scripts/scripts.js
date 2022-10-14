@@ -9,7 +9,7 @@ x.onclick = toggleMenu;
 
 
 //Current date for the Header
-const datefieldUK = document.querySelector(".currentdate");
+const datefieldUK = document.querySelector("#currentdate");
 
 const now = new Date();
 

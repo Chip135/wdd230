@@ -1,69 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
     <meta
       name="description"
       content="Home page for the Chamber of Commerse site project for WDD230"
-    />
-    <link rel="short cut icon" href="images/per_falcon.ico">
-    <link rel="stylesheet" href="styles/base.css" />
-    <link rel="stylesheet" href="styles/medium.css" />
-    <link rel="stylesheet" href="styles/large.css" />
+    >
+    <link rel="short cut icon" href="images/per_falcon.ico" >
+    <link rel="stylesheet" href="styles/base.css" >
+    <link rel="stylesheet" href="styles/medium.css" >
+    <link rel="stylesheet" href="styles/large.css" >
     <title>Chamber of Commerce home page</title>
   </head>
   <body>
     <header>
       <span>
-      <nav>
-        <button id="hambutton"><span>&#9776;</span><span>X</span></button>
-        <ul id="primarynav">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Discover</a></li>
-          <li><a href="#">Directory</a></li>
-          <li><a href="#">Join</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </nav>
-      <section>
-        <h1>Orem Utah</h1>
-        <h1>Chamber of Commerce</h1>
-      </section>
+        <nav>
+          <button id="hambutton"><span>&#9776;</span><span>X</span></button>
+          <ul id="primarynav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Discover</a></li>
+            <li><a href="#">Directory</a></li>
+            <li><a href="#">Join</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+        <section>
+          <h1>Orem Utah</h1>
+          <h1>Chamber of Commerce</h1>
+        </section>
         <img
           class="logo"
           width="75px"
           height="75px"
           src="images/oremutahlogo.png"
           alt="Orem Utah Commerce Logo"
-        />
+        >
       </span>
-        <div class="currentdate"></div>
+      <div id="currentdate"></div>
     </header>
-    <main><p>main place holder</p></main>
+    <main class="content">
+      <div class="welcome">
+        <img
+          class="oremimg"
+          width="400px"
+          height="200px"
+          src="images/oremimg.jpg"
+          alt="Timpanogos Moutian"
+        >
+        <h2 class="oremheader">Welcome to Orem</h2>
+        <button class="joinmeeting">Join the Chamber</button>
+      </div>
+      <div class="news">
+        <h2>News</h2>
+        <p>with news</p>
+      </div>
+      <div class="joinus">
+        <button class="joinbtn">Join Us!</button>
+        <p>
+          Discover how to join the chamber of commerce and how it will benefit
+          your organization!
+        </p>
+      </div>
+      <section class="advertisements">
+        <div class="moving">
+          <h3>Moving Giants</h3>
+          <p>Bag um and Tag um</p>
+        </div>
+        <div class="tutoring">
+          <h3>Tutoring</h3>
+          <p>After school tutoring for all ages</p>
+        </div>
+        <div class="treehouse">
+          <h3>Build A Treehouse</h3>
+          <p>Choose from over 1000 plans!</p>
+        </div>
+      </section>
+      <div class="weather">
+        <h2>Weather</h2>
+        <img class="sunny" src="#" alt="sun" >
+        <h3>Sunny</h3>
+        <p>Wind Speed: .5mph</p>
+        <p>Wind Chill: N/A</p>
+      </div>
+      <div class="grandopening">
+        <h3>Ribbon Cutting</h3>
+        <h4>The Diamond Shack</h4>
+        <p>
+          Join us for the grand opening of the Diamond Shack, Thursday at 1:00
+          p.m.
+        </p>
+      </div>
+    </main>
     <footer>
       <div>
-        <img class="footerlogo" width="100px" height="100px" src="images/oremutahlogo.png" />
+        <img
+          class="footerlogo"
+          width="100px"
+          height="100px"
+          src="images/oremutahlogo.png"
+          alt="logo"
+        >
         <h3>Orem Utah Chamber of Commerce</h3>
         <span>
           <p>info@oremcc.gov</p>
           <p>(801)5987-5687</p>
-          <link>location map</link>
+          <a class="maplink" href="#">location map</a>
         </span>
       </div>
       <section>
         <span>
-        <div id="copyrightsymbol"></div>
-        <h3>Orem City Chamber</h3>
-        
-        <h3 id="name">Ethan Chipman</h3>
-        <h3>WDD 230 Project</h3>
-      </span>
+          <div id="copyrightsymbol"></div>
+          <h3>Orem City Chamber</h3>
+
+          <h3 id="name">Ethan Chipman</h3>
+          <h3>WDD 230 Project</h3>
+        </span>
         <div id="lastmodified"></div>
       </section>
-        
-      </footer>
+    </footer>
     <script src="scripts/scripts.js"></script>
   </body>
 </html>

@@ -29,5 +29,37 @@
     #lastmodified{
         justify-content: center;
     }
+    .content{
+        grid-template-columns: auto 200px;
+    }
+    .welcome{
+        grid-column: 1/3;
+    }
+    .joinus{
+        grid-column: 1/3;
+    }
+    .advertisements{
+        display: grid;
+        grid-column: 1/3;
+    }
+    .news{
+        grid-column: 1/3;
+    }
+    .moving{
+        grid-column: 1/2;
+    }
+    .tutoring{
+        grid-column: 2/3;
+    }
+    .grandopening{
+        grid-column: 1/2;
+        grid-row: 5/6;
+    }
+    .weather{
+        max-width: 150px;
+        grid-column: 2/3;
+        grid-row: 5/6;
+        justify-self: center;
+    }
 
 }
