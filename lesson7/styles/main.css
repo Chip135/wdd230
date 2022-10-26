@@ -1,0 +1,7 @@
+img{
+    min-width: 300px;
+    min-height: 400px;
+    background-color: lightgray;
+    display: block;
+    margin: 100px 0;
+}
