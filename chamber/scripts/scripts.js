@@ -28,3 +28,22 @@ const year = d.getFullYear();
 document.getElementById("copyrightsymbol").innerHTML = `&copy2022`;
 
 document.getElementById("lastmodified").textContent = `Last Modified: ${document.lastModified}`;
+
+//Time since last visit
+
+const today = new Date();
+const dslvisit = document.querySelector(".days");
+
+localStorage.setItem("lastvisit", now);
+const msperday = 24 * 60 * 60 * 1000;
+let lvisit = window.localStorage.getItem("lastvisit");
+lvisit = Date.parse(lvisit);
+
+let dayssince = (today.getTime() - lvisit) / msperday;
+
+dayssince = Math.ceil(dayssince);
+
+if (dayssince <= 1) {
+    dslvisit.innerHTML = `Time since last visit: ${dayssince} day.`
+} else { 
+    dslvisit.innerHTML = `Time since last visit: ${dayssince} days.`};

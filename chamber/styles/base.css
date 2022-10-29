@@ -141,5 +141,26 @@ footer section span h3{
 .weather h3{
     border-bottom: 1px solid rgba(0, 0, 0, .3)
 }
+.discoverpics picture{
+    display: block;
+    margin: 15px;
+}
+figcaption{
+    text-align: center;
+}
 
-
+.demographics p{
+    padding: 20px;
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    margin: 1rem;
+    background-color: #f4b860;
+    text-align: center;
+    margin: .3rem;
+}
+.playground:hover, .summerfest:hover, .splash:hover, .river:hover, .timp:hover, .lake:hover{
+    box-shadow: 0 0 50px #333;
+}
+.discoverpics img{
+    max-width: 100%;
+}
