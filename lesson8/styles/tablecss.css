@@ -1,0 +1,29 @@
+table{
+    margin: 10px auto;
+    border: 1px solid black;
+    box-shadow: 0 0 25px #555;
+    border-collapse: collapse;
+}
+caption{
+    padding: 10px;
+    caption-side: bottom;
+    color: red;
+    font-size: .85rem;
+}
+tr:first-child th, .highlight{
+    background-color: darkblue;
+    color: white;
+}
+th, td{
+    padding: 7px 15px;
+    border: 1px solid #555;
+}
+th{
+    background-color: skyblue;
+}
+td{
+    text-align: center;
+}
+tbody tr:nth-child(even){
+    background-color: lightgray;
+}
