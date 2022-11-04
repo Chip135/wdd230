@@ -47,3 +47,9 @@ if (dayssince <= 1) {
     dslvisit.innerHTML = `Time since last visit: ${dayssince} day.`
 } else { 
     dslvisit.innerHTML = `Time since last visit: ${dayssince} days.`};
+
+// Regular Exprestion
+
+const string = document.querySelector(".btitle");
+const regex = new RegExp('[a-zA-Z_\ -]{7,}');
+const isexisting = regex.test(string);
