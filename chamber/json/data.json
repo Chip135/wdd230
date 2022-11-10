@@ -1,0 +1,76 @@
+{
+    "businesses": [
+        {
+            "name": "Bob's SmokeHouse",
+            "address": "1256 North 750 West",
+            "num": "801-555-2648",
+            "url": "www.bobsmokes.org",
+            "img": "",
+            "membinfo": "silver"
+        },
+        {
+            "name": "Astrid's Yoga Parler",
+            "address": "268 South 1250 West",
+            "num": "801-555-3549",
+            "url": "www.acyoga.net",
+            "img": "",
+            "membinfo": "non-profit"
+        },
+        {
+            "name": "VR Emporium",
+            "address": "680 North 536 East",
+            "num": "801-555-1596",
+            "url": "www.vr4life.com",
+            "img": "",
+            "membinfo": "gold"
+        },
+        {
+            "name": "Prison Breaks",
+            "address": "120 South 741 West",
+            "num": "801-555-9314",
+            "url": "www.pbescaperomes.org",
+            "img": "",
+            "membinfo": "gold"
+        },
+        {
+            "name": "Chipman Studios",
+            "address": "770 North 150 West",
+            "num": "801-555-6547",
+            "url": "www.pottstudios.org",
+            "img": "",
+            "membinfo": "non-profit"
+        },
+        {
+            "name": "Jenna's Treasures",
+            "address": "368 South 150 West",
+            "num": "801-555-7023",
+            "url": "www.handmadetreasures.org",
+            "img": "",
+            "membinfo": "bronze"
+        },
+        {
+            "name": "Handwork by Val",
+            "address": "130 North 756 West",
+            "num": "801-555-2825",
+            "url": "www.valsart.com",
+            "img": "",
+            "membinfo": "bronze"
+        },
+        {
+            "name": "Fitness Hour",
+            "address": "25 South Main",
+            "num": "801-555-2648",
+            "url": "www.fitnessbuff.com",
+            "img": "",
+            "membinfo": "gold"
+        },
+        {
+            "name": "Cosplay Armory",
+            "address": "1256 North 756 West",
+            "num": "801-555-9512",
+            "url": "www.3darmor.org",
+            "img": "",
+            "membinfo": "silver"
+        }
+    ]
+}
