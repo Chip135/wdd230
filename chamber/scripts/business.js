@@ -1,5 +1,5 @@
 const requestURL = 'https://raw.githubusercontent.com/Chip135/wdd230/main/chamber/json/data.json';
-const cards = document.querySelector('.cards');
+const cards = document.querySelector('.grid');
 
 //async function getBusinesses(){
    // const response = await fetch(requestURL);
@@ -40,5 +40,19 @@ function displayCards(business){
     card.appendChild(url);
     card.appendChild(phone);
 
-    document.querySelector('div.cards').appendChild(card);
+    document.querySelector('div.grid').appendChild(card);
 }
+
+const gridBtn = document.querySelector('#grid')
+const listBtn = document.querySelector('#list')
+const display = document.querySelector('.grid')
+
+gridBtn.addEventListener('click', () => {
+    display.classList.add('grid');
+    display.classList.remove('list');
+});
+
+listBtn.addEventListener('click', () => {
+    display.classList.add('list');
+    display.classList.remove('grid');
+})
