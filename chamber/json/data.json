@@ -5,15 +5,15 @@
             "address": "1256 North 750 West",
             "num": "801-555-2648",
             "url": "www.bobsmokes.org",
-            "img": "",
+            "img": "https://raw.githubusercontent.com/Chip135/wdd230/main/chamber/images/smokehouse.jpg",
             "membinfo": "silver"
         },
         {
-            "name": "Astrid's Yoga Parler",
+            "name": "Astrid's Yoga Parlor",
             "address": "268 South 1250 West",
             "num": "801-555-3549",
             "url": "www.acyoga.net",
-            "img": "",
+            "img": "https://raw.githubusercontent.com/Chip135/wdd230/main/chamber/images/yoga.jpg",
             "membinfo": "non-profit"
         },
         {
@@ -21,7 +21,7 @@
             "address": "680 North 536 East",
             "num": "801-555-1596",
             "url": "www.vr4life.com",
-            "img": "",
+            "img": "https://raw.githubusercontent.com/Chip135/wdd230/main/chamber/images/vr.jpg",
             "membinfo": "gold"
         },
         {
@@ -29,7 +29,7 @@
             "address": "120 South 741 West",
             "num": "801-555-9314",
             "url": "www.pbescaperomes.org",
-            "img": "",
+            "img": "https://raw.githubusercontent.com/Chip135/wdd230/main/chamber/images/escape.jpg",
             "membinfo": "gold"
         },
         {
@@ -37,7 +37,7 @@
             "address": "770 North 150 West",
             "num": "801-555-6547",
             "url": "www.pottstudios.org",
-            "img": "",
+            "img": "https://raw.githubusercontent.com/Chip135/wdd230/main/chamber/images/pottery.jpg",
             "membinfo": "non-profit"
         },
         {
@@ -45,7 +45,7 @@
             "address": "368 South 150 West",
             "num": "801-555-7023",
             "url": "www.handmadetreasures.org",
-            "img": "",
+            "img": "https://raw.githubusercontent.com/Chip135/wdd230/main/chamber/images/crafts.jpg",
             "membinfo": "bronze"
         },
         {
@@ -53,7 +53,7 @@
             "address": "130 North 756 West",
             "num": "801-555-2825",
             "url": "www.valsart.com",
-            "img": "",
+            "img": "https://raw.githubusercontent.com/Chip135/wdd230/main/chamber/images/val.jpg",
             "membinfo": "bronze"
         },
         {
@@ -61,7 +61,7 @@
             "address": "25 South Main",
             "num": "801-555-2648",
             "url": "www.fitnessbuff.com",
-            "img": "",
+            "img": "https://raw.githubusercontent.com/Chip135/wdd230/main/chamber/images/gym.jpg",
             "membinfo": "gold"
         },
         {
@@ -69,7 +69,7 @@
             "address": "1256 North 756 West",
             "num": "801-555-9512",
             "url": "www.3darmor.org",
-            "img": "",
+            "img": "https://raw.githubusercontent.com/Chip135/wdd230/main/chamber/images/3d.jpg",
             "membinfo": "silver"
         }
     ]
