@@ -44,18 +44,16 @@
     <main class="content">
       <div class="welcome">
         <picture>
-          <source media="(max-width: 480px)" srcset="images/meeting200.jpg">
-          <source media="(max-width: 800px)" srcset="images/meeting480.jpg">
           <img
           class="oremimg"
-          src="images/meeting800.jpg"
+          src="images/oremimg.jpg"
           width="800px"
           height="auto"
           alt="Timpanogos Moutian"
           >
         </picture>
         <h2 class="oremheader">Welcome to Orem</h2>
-        <button class="joinmeeting">Join the Chamber</button>
+        <button class="joinmeeting"><a href="join.html">Join the Chamber</a></button>
       </div>
       <div class="news">
         <h2>News</h2>
@@ -84,10 +82,12 @@
       </section>
       <div class="weather">
         <h2>Weather</h2>
-        <img class="sunny" src="#" alt="sun" >
-        <span class="temp">35</span>
-        <h3>Sunny</h3>
-        <span class="windspeed">5</span>
+        <div class="weatherdisplay">
+        <img class="weatherimg" src="" alt="" >
+        <span class="temp"></span>
+        </div>
+        <h3 class="weatherdesc"></h3>
+        <span class="windspeed"></span>
         <span class="windchill"></span>
       </div>
       <div class="grandopening">

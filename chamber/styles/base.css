@@ -141,9 +141,21 @@ footer section span h3{
 .weather h3{
     border-bottom: 1px solid rgba(0, 0, 0, .3)
 }
+.weatherdisplay{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .discoverpics picture{
     display: block;
     margin: 15px;
+}
+.weatherimg{
+    width: 40%;
+    padding: 0 .75rem 0 0;
+}
+.temp{
+    font-size: 2rem;
 }
 figcaption{
     text-align: center;
