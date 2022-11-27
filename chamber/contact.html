@@ -42,8 +42,26 @@
       <div id="currentdate"></div>
     </header>
     <main>
-        <h1>Orem Commerce Application Complete</h1>
-            <p>Thank you for your support of the community.</p>
+        <h1>Contact Us</h1>
+        <div class="content">
+        <div class="continfo">
+            <h3>Orem Chamber of Commerse</h3>
+            <p>850 North Main Street.</p>
+            <p>Orem, UT 84057</p>
+            <p>(801)5987-5687</p>
+        </div>
+            <img class="oremcontpic" src="images/orem.jpg" alt="Orem Valley">
+        </div>
+        <form>
+        <fieldset>
+            <legend>Contact Information</legend>
+                <label class="info">Name*<input type="text" name="fname" required></label>
+                <label class="info">Phone*<input type="tel" name="phone" placeholder="1235551234" required></label>
+                <label class="info">Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                <label class="info">Questions<textarea class="info" name="questions"></textarea></label>
+        </fieldset>
+        <input class="submit" type="submit" value="Submit" class="submitBtn">
+        </form>
     </main>
     <footer>
       <div>
@@ -73,6 +91,5 @@
       </section>
     </footer>
     <script src="scripts/scripts.js"></script>
-    <script src="scripts/windchill.js"></script>
   </body>
 </html>
