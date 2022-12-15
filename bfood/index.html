@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bountiful Foods</title>
+    <meta
+    name="Description"
+    content="Bountiful Foods final project for WDD230"
+  />
+  <link rel="stylesheet" href="styles/small.css">
+  <link rel="stylesheet" href="styles/medium.css">
+  <link rel="stylesheet" href="styles/large.css">
+  <link rel="stylesheet" href="styles/normalize.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="companyname">Bountiful Foods</div>
+            <button id="hambutton"><span>&#9776;</span><span>X</span></button>
+            <ul id="primarynav">
+                <li><a href="index.html">Home Page</a></li>
+                <li><a href="fresh.html">Fresh</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="maincontent">
+        <div class="summaryinfo">
+            <h1>Summary</h1>
+            <p>There are many beautiful places that you can visit on the coast of southern Califorina. Just off the coast
+                of Long beach there is the beautiful Catalina island. There is also a lot of fun things that you can do while
+                you are there. Anaheim is just inland of Long Beach and Huntington Beach and they have some good places for the
+                family to have some good fun. 
+            </p>
+            <p class="par2">That is not all of the cool places that you can see while visiting our lovely coast of southern Califorina.
+                There is the Sea Cliff Costal Trail in Del Mar which can give you some spectaular views of the sunset. However you need
+                not let us tell you about the wonderful southern coast of Califorina, come down and visit for yourself and make sure to
+                get a fresh made fruit drink from us while you are here.
+            </p>
+        </div>
+        <img class="sunset" src="images/california_coast.jpg" alt="Califorina Sunset" loading="lazy">
+        <div class="weather">
+            <h2>Weather</h2>
+            <div class="weatherdisplay">
+            <img class="weatherimg" src="" alt="" >
+            <span class="temp"></span>
+            <span class="humidity"></span>
+            </div>
+            <h3 class="weatherdesc"></h3>
+        </div>
+        <img class="freshfruit" src="images/fresh-fruit-3.jpg" alt="Fruit" loading="lazy">
+        <div class="social">
+            <img id="facebook" src="images/facebook.jpg" alt="Facebook" href="https://www.facebook.com/">
+            <img id="twitter" src="images/twitter.jpg" alt="Twitter">
+            <img id="pinterest" src="images/pinterest.jpg" alt="Pintrest">
+        </div>
+        <div class="specdrink"></div>
+        <img class="friutspread" src="images/fruit_1.jpg" alt="More fruit" loading="lazy">
+    </main>
+    <footer>
+        <div class="footercontent">
+            <div id="copyrightsymbol"></div>
+            <h3>Bountiful Foods</h3>
+            <div id="lastmodified"></div>
+        </div>
+    </footer>
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/scripts.js"></script>
+</body>
+</html>

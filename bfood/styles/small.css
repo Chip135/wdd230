@@ -1,0 +1,187 @@
+*{
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC&family=Almendra+SC&family=Architects+Daughter&family=Arvo:ital@1&family=Indie+Flower&display=swap');
+.maincontent{
+    background-color: bisque;
+    border-radius: 5px;
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+.navbar{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.companyname{
+    font-size: 2rem;
+    margin: .5rem;
+    width: 100%
+}
+.summaryinfo{
+    margin: .5rem;
+}
+nav button{
+    background: transparent;
+    color: black;
+    border: none;
+    font-size: 2rem;
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    flex-direction: column;
+}
+nav ul{
+    width: 100%;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+    flex-direction: column;
+}
+nav ul.open{
+    display: block;
+}
+nav ul li a{
+    display: block;
+    padding: 1rem;
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    text-align: center;
+}
+nav ul li a:hover{
+    background-color: rgb(188, 188, 188);
+    border-radius: 5px;
+}
+#hambutton span:nth-child(1){display: block;}
+#hambutton span:nth-child(2){display: none;}
+
+#hambutton.open span:nth-child(1){display: none;}
+#hambutton.open span:nth-child(2){display: block;
+    color: red;}
+
+.par2{
+    display: none;
+}
+.weather{
+    margin: .5rem;
+    padding: .25rem;
+    border-radius: 10px;
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: space-between;
+}
+.temp{
+    font-size: 2rem;
+}
+.humidity{
+    font-size: 1.5rem;
+}
+.weatherdisplay{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.sunset{
+    border-radius: 15px;
+    max-width: 100%;
+    padding: .5rem;
+    filter: drop-shadow(.25rem .25rem 1rem);
+}
+.social{
+    text-align: center;
+}
+#facebook{
+    width: 3rem;
+    filter: drop-shadow(.25rem .25rem 1rem);
+    border-radius: 5px;
+    margin: .5rem;
+}
+#twitter{
+    width: 3rem;
+    filter: drop-shadow(.25rem .25rem 1rem);
+    border-radius: 5px;
+    margin: .5rem;
+}
+#pinterest{
+    width: 3rem;
+    filter: drop-shadow(.25rem .25rem 1rem);
+    border-radius: 5px;
+    margin: .5rem;
+}
+.footercontent{
+    display: flex;
+    align-items: center;
+    margin: .5rem;
+    justify-content: space-evenly;
+}
+.freshfruit{
+    display: none;
+}
+.friutspread{
+    display: none;
+}
+fieldset{
+    border-radius: 10px;
+    margin: 1rem;
+    padding: .5rem 2%;
+}
+legend{
+    padding: 0 .5rem;
+    margin: 0 1rem;
+}
+label.info{
+    display: block;
+    padding-top: 1rem;
+}
+label.info input{
+    display: block;
+    width: 100%;
+    max-width: 20rem;
+    font-size: 1rem;
+    padding: .75rem;
+    border-radius: 4px;
+}
+.options{
+    display: block;
+    padding: .75rem 0;
+    color: #555;
+    display: flex;
+    flex-direction: column;
+    max-width: 20rem;
+    font-size: 1.5rem;
+}
+input.submitBtn{
+    border: none;
+    background-color: forestgreen;
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+}
+.option{
+    padding: .5rem 0;
+}
+.checkbox{
+    max-width: 20rem;
+}
+.maplink{
+    text-decoration: none;
+    font-size: 1.5rem;
+    display: block;
+    margin: 1rem 0;
+    filter: drop-shadow(.25rem .25rem 1rem);
+}
+.contact-info p{
+    padding: 0;
+    margin: 0;
+    filter: drop-shadow(.25rem .25rem 1rem);
+}
+.historical{
+    box-shadow: #bbb;
+}

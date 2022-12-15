@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fresh</title>
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="companyname">Bountiful Foods</div>
+            <button id="hambutton"><span>&#9776;</span></button>
+            <ul id="primarynav">
+                <li><a href="index.html">Home Page</a></li>
+                <li><a href="fresh.html">Fresh</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="maincontent">
+        <form>
+        <h1>Make Your Drink</h1>
+        <fieldset>
+            <legend>Your Info</legend>
+            <label class="info">First Name*<input class="first-name" type="text" name="fname" required></label>
+            <label class="info">Email*<input type="email" name="email" required></label>
+            <label class="info">Phone*<input type="tel" name="phone" required></label>
+        </fieldset>
+        
+        <fieldset class="checkbox">
+            <legend>Fruit Options (Pick 3)</legend>
+            <label class="options"></label>
+        </fieldset>
+        <fieldset>
+            <legend>Special Instructions</legend>
+                <label class="desc"><textarea name="description"></textarea></label>
+        </fieldset>
+        <input type="submit" value="Complete your Order" class="submitBtn">
+        </form>
+    </main>
+    <footer>
+        <div class="footercontent">
+            <div id="copyrightsymbol"></div>
+            <h3>Bountiful Foods</h3>
+            <div id="lastmodified"></div>
+        </div>
+    </footer>
+    <script src="scripts/scripts.js"></script>
+    <script src="scripts/fruits.js"></script>
+</body>
+</html>
